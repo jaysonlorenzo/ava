@@ -6,6 +6,7 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import * as styles from "../components/index.module.css"
 
+
 const links = [
   {
     text: "Tutorial",
@@ -74,7 +75,7 @@ const IndexPage = () => (
     <Seo title="Home" />
     <div className={styles.textCenter}>
       <StaticImage
-        src="../images/example.png"
+        src="../images/AVA-logosmall.png"
         loading="eager"
         width={64}
         quality={95}
@@ -82,8 +83,8 @@ const IndexPage = () => (
         alt=""
         style={{ marginBottom: `var(--space-3)` }}
       />
-      <h1>
-        Welcome to <b>Gatsby!</b>
+      <h1 className="text-3xl font-bold underline">
+        Hello world!
       </h1>
       <p className={styles.intro}>
         <b>Example pages:</b>{" "}
